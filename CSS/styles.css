@@ -1,0 +1,141 @@
+body {
+  font-family: "roboto", sans-serif;
+  color: #212121;
+}
+:root {
+  --blue_color: #2196f3;
+  --gray_color: #757575;
+  --background: #2f303a;
+  --filter_color: #f5f4fa;
+  --white_color: #ffffff;
+  --black_color: #000000;
+}
+.logo {
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}
+.logo span {
+  color: var(--blue_color);
+}
+.head {
+  color: var(--black_color);
+}
+.foot {
+  color: var(--white_color);
+}
+.navi-item li {
+  list-style-type: none;
+}
+.navi-item li a {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.navi-item li a:hover,
+.navi-item li a:focus {
+  color: var(--blue_color);
+}
+.contact-item li {
+  list-style-type: none;
+  font-style: normal;
+  color: var(--white_color);
+}
+
+.contact-item li a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--gray_color);
+}
+.contact-item li a:hover,
+.contact-item li a:focus {
+  color: var(--blue_color);
+}
+.text-title {
+  color: var(--white_color);
+  background-color: var(--background);
+  font-size: 44;
+  line-height: 1.36;
+  text-align: center;
+}
+.order-service {
+  background-color: var(--blue_color);
+  color: var(--white_color);
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+.text li {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.activity li {
+  list-style-type: none;
+}
+.team li {
+  list-style-type: none;
+  font-size: 16px;
+}
+.team-position {
+  color: var(--gray_color);
+}
+.filter-list li {
+  list-style-type: none;
+  display: inline;
+}
+.filter {
+  border: 0;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--filter_color);
+  text-align: center;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--blue_color);
+  color: var(--white_color);
+  font-size: 17px;
+  -webkit-text-stroke-color: var(--black_color);
+  -webkit-text-stroke-width: 1px;
+}
+.bottom {
+  background-color: var(--background);
+}
+
+.address-item li {
+  list-style-type: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  color: var(--white_color);
+}
+
+.address-item a {
+  text-decoration: none;
+  color: var(--gray_color);
+}
+.address-item a:hover,
+.address-item a:focus {
+  color: var(--blue_color);
+}
+.portfolio li {
+  list-style-type: none;
+}
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--gray_color);
+}
